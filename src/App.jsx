@@ -5,7 +5,7 @@ import { hrProfetionals, hiringManagers } from "./const";
 function App() {
 
   return (
-    <div className="min-h-screen w-full flex flex-col">
+    <div className="min-h-screen w-full flex flex-col dark:bg-gradient-to-b from-gray-900 via-purple-900 to-gray-900 text-gray-900 dark:text-gray-300 transition-colors duration-500">
       <Header />
       <main className="flex-1 overflow-hidden">
         <div className="h-full container mx-auto px-4 flex items-center">

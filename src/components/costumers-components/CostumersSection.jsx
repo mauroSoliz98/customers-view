@@ -92,7 +92,7 @@ export const CostumersSection = ({ img_path, title }) => {
               <div 
                 key={index} 
                 className="flex flex-col items-center px-2"
-                style={{ minWidth: `${100 / 4}%` }} // Cada card ocupa 1/3 del ancho
+                style={{ minWidth: `${100 / 3}%` }} // Cada card ocupa 1/4 del ancho
               >
                 <img 
                   src={image.img} 
