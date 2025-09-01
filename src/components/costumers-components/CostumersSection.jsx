@@ -99,7 +99,7 @@ export const CostumersSection = ({ img_path, title }) => {
                   alt={`Customer ${(index % img_path.length) + 1}`} 
                   className="w-48 h-24 object-contain"
                 />
-                <p className="text-gray-600 text-sm mt-2 text-center">
+                <p className="text-gray-600 dark:text-gray-300 text-sm mt-2 text-center">
                   {image.description}
                 </p>
               </div>
