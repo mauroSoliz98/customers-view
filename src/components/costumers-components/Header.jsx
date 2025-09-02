@@ -1,14 +1,14 @@
 import React from 'react'
-import DarkModeToggle from './DarkModeToggle'
+//import DarkModeToggle from './DarkModeToggle'
 
 export const Header = () => {
   return (
     <header className='h-16 border-b border-purple-200/50'>
       <nav className='h-full container mx-auto grid grid-cols-2 items-center'>
-        <div className="flex justify-start items-center lg:justify-between gap-8 text-lg font-medium">
-          <div>
+        <div className="flex justify-start items-center lg:justify-end gap-8 text-lg font-medium">
+          {/*<div>
             <DarkModeToggle />
-          </div>
+          </div>*/}
           <div className='hidden lg:flex gap-8 dark:text-gray-300'>
             <p>Pricing</p>
             <p>Costumers</p>

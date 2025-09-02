@@ -9,7 +9,7 @@ function App() {
       <Header />
       <main className="flex-1 overflow-hidden">
         <div className="h-full container mx-auto px-4 flex items-center">
-          <div className="max-w-4xl mx-auto py-8">
+          <div className="max-w-6xl mx-auto py-8">
             <IntroSection />
             <div className="flex gap-4">
               <MetricCard
