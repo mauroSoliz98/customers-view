@@ -37,7 +37,7 @@ export const CostumersSection = ({ img_path, title }) => {
   return (
     <div className="mt-8">
       <h1 className="text-3xl font-medium text-center">{title}</h1>
-      <div className="flex items-center justify-center gap-4 mt-8">
+      <div className="flex items-center justify-center gap-4">
         <button
           onClick={prevCard}
           className="px-4 py-2 text-gray-600 text-3xl hover:text-purple-500"
