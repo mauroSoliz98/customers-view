@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({ img_path, description, index = 0, ...props }) => {
     return (
 
-        <div className="flex items-center p-2 max-w-5xl">
+        <div className="flex items-center p-8 shadow-xl max-w-5xl rounded-md border border-purple-100/40 dark:border-gray-900/40">
             <img
                 className="w-64 h-48 object-fit rounded-lg"
                 src={img_path}

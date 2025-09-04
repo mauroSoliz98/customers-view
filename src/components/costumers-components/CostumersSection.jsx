@@ -36,7 +36,7 @@ export const CostumersSection = ({ img_path, title }) => {
 
   return (
     <div className="mt-8">
-      <h1 className="text-3xl font-medium text-center">{title}</h1>
+      <h1 className="text-3xl font-medium text-center mb-4">{title}</h1>
       <div className="flex items-center justify-center gap-4">
         <button
           onClick={prevCard}
@@ -62,7 +62,7 @@ export const CostumersSection = ({ img_path, title }) => {
           <BiChevronRightCircle size={30} />
         </button>
       </div>
-      <div className="text-center mt-2 flex justify-center gap-2">
+      <div className="text-center mt-4 flex justify-center gap-2">
         {img_path.map((_, idx) => (
           <span
             key={idx}
